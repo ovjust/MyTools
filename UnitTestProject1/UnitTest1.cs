@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.IO;
 
 namespace UnitTestProject1
 {
@@ -19,6 +20,12 @@ namespace UnitTestProject1
           
             string s = "";
             var a = new Guid(s);
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Directory.CreateDirectory("D:\\.ssh");
         }
     }
 

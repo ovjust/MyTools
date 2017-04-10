@@ -64,6 +64,7 @@
             this.txtPath = new System.Windows.Forms.TextBox();
             this.btnShowExplorer = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.btnSqlUpdate = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -330,6 +331,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.btnSqlUpdate);
             this.tabPage3.Controls.Add(this.richTextBox2Out);
             this.tabPage3.Controls.Add(this.btnDelNum);
             this.tabPage3.Controls.Add(this.richTextBox1In);
@@ -338,7 +340,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(539, 320);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.Text = "去行号";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // richTextBox2Out
@@ -378,7 +380,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(539, 320);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "运行文件";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // btnOpenFile
@@ -426,8 +428,18 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(539, 320);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.Text = "生成sql-update";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // btnSqlUpdate
+            // 
+            this.btnSqlUpdate.Location = new System.Drawing.Point(420, 128);
+            this.btnSqlUpdate.Name = "btnSqlUpdate";
+            this.btnSqlUpdate.Size = new System.Drawing.Size(111, 43);
+            this.btnSqlUpdate.TabIndex = 3;
+            this.btnSqlUpdate.Text = "sql根据insert\r\n生成update";
+            this.btnSqlUpdate.UseVisualStyleBackColor = true;
+            this.btnSqlUpdate.Click += new System.EventHandler(this.btnSqlUpdate_Click);
             // 
             // Form1
             // 
@@ -437,6 +449,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -491,6 +504,7 @@
         private System.Windows.Forms.Button btnShowExplorer2;
         private System.Windows.Forms.Button btnOpenFile;
         private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.Button btnSqlUpdate;
     }
 }
 

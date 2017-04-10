@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小工具", "小工具\小工具.csproj", "{EE70E916-ECFB-450F-9E83-735D4AA0C68A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{7B035D7C-90B7-485E-9C47-54EF8ADD4093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetProject_AddFolderRefer", "DotNetProject_AddFolderRefer\DotNetProject_AddFolderRefer.csproj", "{AF65F1B1-551B-4382-8898-1345DBBC6857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{7B035D7C-90B7-485E-9C47-54EF8ADD4093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B035D7C-90B7-485E-9C47-54EF8ADD4093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B035D7C-90B7-485E-9C47-54EF8ADD4093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF65F1B1-551B-4382-8898-1345DBBC6857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF65F1B1-551B-4382-8898-1345DBBC6857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF65F1B1-551B-4382-8898-1345DBBC6857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF65F1B1-551B-4382-8898-1345DBBC6857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
